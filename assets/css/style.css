@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+.navbar {
+    background: linear-gradient(90deg,#6C5CE7,#00B894);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.checkbox-group input {
+    margin: 10px;
+}
+
+button {
+    background: #6C5CE7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4834d4;
+}
+
+.risk-card {
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.high { background: #ff7675; color: white; }
+.medium { background: #fdcb6e; }
+.low { background: #55efc4; }
+
+canvas {
+    margin-top: 40px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #2d3436;
+    color: white;
+}
